@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+    padding: 13px 0;
+}
+.cart{
+    position: relative;
+}
+.cart i{
+    font-size: 20px;
+    background-color:#e77f67;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #eee;
+}
+.cart p{
+    position: absolute;
+    top: -9px;
+    left: -19px;
+    font-weight: 600;
+    background-color: #eee;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+.img-container{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    font-size: 20px;
+    border-radius: 5px;
+    min-width: 200px;
+}
+.box img{
+    width: 18vw;
+    border-radius: 5px;
+}
+.name{
+    color: aquamarine;
+    font-weight: 600;
+}
+.total span{
+    cursor: pointer;
+}
+.foot{
+    background-color: burlywood;
+    padding: 20px 0;
+    text-align: center;
+}
+.foot p strong{
+    color: #e77f67;
+}
+/* cart page */
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.t{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.boxes{
+    position: relative;
+    /* border:  1px solid black; */
+    min-width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+}
+.cart-box{
+    text-align: center;
+}
+.cart-box img{
+    width: 15vw;
+    border-radius: 5px;
+}
+.cart-det{
+    text-align: center;
+}
+.cart-det p{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.cart-det strong{
+    padding: 15px 5px;
+}
+.cart-det h1{
+    padding-top: 10px;
+}
+.fa-regular{
+    font-size: 30px;
+    color: #e77f67;
+    cursor: pointer;
+}
+.head button{
+    margin-top: 5px;
+    padding: 10px 25px;
+    background-color: #e77f67;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex button{
+    padding: 10px 25px ;
+    background-color: #e77f67;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
